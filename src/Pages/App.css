@@ -1,0 +1,446 @@
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+
+a {
+  text-decoration: none;
+}
+
+#menu {
+  z-index: 2;
+}
+
+nav {
+  background-color: #0c0d11;
+  color: rgba(255, 255, 255, 1);
+}
+h1 {
+  margin: 0;
+  padding: 18px 0;
+}
+#menu-bar {
+  margin: 30px 0 20px 20px;
+  cursor: pointer;
+}
+
+.nav {
+  transition: 0.3s ease;
+  display: none;
+}
+
+.nav ul {
+  padding: 0 22px;
+}
+
+.nav li {
+  list-style: none;
+  padding: 12px 0;
+}
+
+.nav li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  font-weight: bold;
+}
+
+.menu-bg,
+#menu {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.menu-bg {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  margin: 30px 0 20px 20px;
+  background: radial-gradient(circle, #002073, #0069eb);
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.change {
+  display: block;
+}
+
+.change-bg {
+  width: 650px;
+  height: 600px;
+  transform: translate(-60%, -30%);
+}
+
+.title {
+  margin-left: 60px;
+}
+
+.menu-img {
+  width: 24px;
+  height: 20px;
+  margin-top: -10px;
+}
+
+p {
+  margin: 0;
+  padding: 10px 0;
+}
+.MainText {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px 30px 0 30px;
+}
+
+.Brain_blue {
+  width: 200px;
+  height: 200px;
+}
+
+.MainWhiteText {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+.yellow {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 35px;
+  text-transform: uppercase;
+
+  color: #ffc700;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.yellowSmall {
+  padding-top: 25px;
+  color: #ffc700;
+}
+
+.yellowBtn {
+  padding: 10px 30px;
+  background: radial-gradient(50% 50% at 50% 50%, #ffc700 0%, #ffc700 100%);
+  border-radius: 20px;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #0d0c11;
+}
+
+.arrow {
+  margin: 20px 0;
+  height: 24px;
+}
+
+.qoute {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
+
+.gradient {
+  padding-top: 30px;
+  background: radial-gradient(
+    rgba(41, 80, 194, 1),
+    rgba(38, 91, 199, 0.96),
+    rgba(39, 98, 187, 0)
+  );
+}
+
+.gradient .pofAlbert {
+  text-align: right;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20%;
+  margin-bottom: .5%;
+}
+
+.qoute {
+  display: flex;
+  justify-content: space-between;
+}
+.qoute_p {
+  text-align: center;
+  letter-spacing: 0.05em;
+  padding: 0 30px;
+}
+
+
+.q_left {
+  font-size: 60px;
+  padding: 30px 0 0 30px;
+  text-align: left;
+}
+
+.q_right {
+  font-size: 60px;
+  padding: 0 30px 30px 0;
+  text-align: right;
+}
+
+.third,
+.four {
+  padding: 30px 10px;
+  text-align: center;
+}
+.third p {
+  text-align: left;
+}
+
+.third b {
+  text-transform: uppercase;
+}
+
+.brain {
+  margin: auto;
+  display: block;
+}
+
+.four p {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.four {
+  color: white;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 00;
+}
+
+.gray-bg {
+  background: rgba(243, 243, 242, 0.8);
+  color: black;
+  border-radius: 20px;
+  padding: 20px 10px;
+}
+
+.four button {
+  margin: 20px 0 0 0;
+  background: rgba(0, 0, 0, 0);
+  color: white;
+  border: solid 1px white;
+}
+
+footer {
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 50px;
+  text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+  .qoute_p {
+    padding: 0 300px;
+  }
+
+  .q_left {
+    padding: 30px 0 0 300px;
+  }
+
+  .q_right {
+    padding: 0 300px 30px 0;
+  }
+
+  .third,
+  .four {
+    padding: 30px 200px;
+  }
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #699fcc;
+}
+
+.auth-form, .register-form, .login-form {
+ display: flex;
+ flex-direction: column;
+}
+
+.auth-form {
+  padding: 5rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 0.5rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: medium;
+  font-weight: 500;
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+.or {
+  font-weight: 900;
+  text-align: center;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btngoogle {
+  border-radius: 25px;
+  margin: 0.34rem;
+  font-size: 15px;
+  padding: 15px;
+  font-weight: 500;
+}
+
+.btnface {
+  border-radius: 25px;
+  padding: 15px;
+  margin: 0.34rem;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.btnregister {
+  font-weight: 500;
+  background: none;
+  color: white;
+  text-decoration: underline;
+
+}
+
+.btnlogin {
+  font-weight: 500;
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+
+.btnforgot {
+  font-weight: 500;
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Home {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #04364A;
+  height: 100vh;
+}
+
+.Home h1 {
+ /*  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  color: white;
+}
+.contanierofhomepage{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white; /* Add text color if needed */
+}
+
+/* Homepage button css codes line */
+
+.button-Home {
+  appearance: button;
+  background-color: #4D4AE8;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+  border: 1px solid #4D4AE8;
+  border-radius: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset,rgba(46, 54, 80, 0.075) 0 1px 1px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+  padding: .5rem 1rem;
+  text-align: center;
+  text-transform: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-Home:focus:not(:focus-visible),
+.button-Home:focus {
+  outline: 0;
+}
+
+.button-Home:hover {
+  background-color: #3733E5;
+  border-color: #3733E5;
+}
+
+.button-Home:focus {
+  background-color: #413FC5;
+  border-color: #3E3BBA;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset, rgba(46, 54, 80, 0.075) 0 1px 1px, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+
+
+
