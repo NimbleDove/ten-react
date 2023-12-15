@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ten-react/static/css/main.a4924092.css",
+    "main.js": "/ten-react/static/js/main.d9ba599a.js",
+    "static/js/787.f4e0eb2b.chunk.js": "/ten-react/static/js/787.f4e0eb2b.chunk.js",
+    "static/media/menu.png": "/ten-react/static/media/menu.3b96fd9465c5cc6646a0.png",
+    "static/media/QuestionIMG.png": "/ten-react/static/media/QuestionIMG.41566e53c04ca677ada5.png",
+    "static/media/cross.png": "/ten-react/static/media/cross.829ff85284dbc6596d83.png",
+    "static/media/space.png": "/ten-react/static/media/space.db24e2a85c51cf8523de.png",
+    "static/media/image.png": "/ten-react/static/media/image.8b7baafd101271109ee3.png",
+    "static/media/brain-blue.png": "/ten-react/static/media/brain-blue.801c6567b612118a48c9.png",
+    "static/media/brain.png": "/ten-react/static/media/brain.330c8f64b49dea45be06.png",
+    "index.html": "/ten-react/index.html",
+    "main.a4924092.css.map": "/ten-react/static/css/main.a4924092.css.map",
+    "main.d9ba599a.js.map": "/ten-react/static/js/main.d9ba599a.js.map",
+    "787.f4e0eb2b.chunk.js.map": "/ten-react/static/js/787.f4e0eb2b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4924092.css",
+    "static/js/main.d9ba599a.js"
+  ]
+}
